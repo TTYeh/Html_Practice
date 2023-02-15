@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>html與js互動</title>
+    <style>
+        #Mytitle { color:blueviolet  }
+    </style>
+</head>
+<body>
+    <!--兩個標籤同時用選取器id控制，只能改一筆-->
+    <h1 id="Mytitle">我是h1第一行</h1>
+    <h1 id="Mytitle">我是h1第二行</h1>
+    <h2 id="Mytitle">我是h2第三行</h2>
+    <!--script要寫在body，要先讓內容先進來，程式再改才改得到-->
+    <script>
+        document.getElementById("Mytitle").style.color = "red";
+
+    </script>
+</body>
+</html>
