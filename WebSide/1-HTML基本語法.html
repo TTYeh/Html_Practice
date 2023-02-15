@@ -4,8 +4,18 @@
 <head>
     <meta charset="utf-8" />
     <title>出來玩</title>
+    <!-- 方便關鍵字搜索-->
+    <meta name="author" content="Eddy">
+    <meta name="description" content="我ㄉ出來玩網站">
 </head>
 <body>
+    超連結語法:
+    <a href="http://www.google.com.tw">Google網站</a>
+    <a href="2-HTML套CSS.html">2-HTML套CSS.html</a>.
+    <a href="mailto:ttyeh@g.ncu.edu.tw">寄信給我</a>
+    <a href="#bookmark1">移動到書籤位置</a>
+    <img src="https://bit.ly/2OHjuJJ" alt="我的小草神" />
+    
     段落文字:
     <p>Hello world</p>
 
@@ -36,22 +46,17 @@
         <li>第3行</li>
     </ul>
 
-    超連結語法:
-    <a href="http://www.google.com.tw">Google網站</a>
-
-    <img src="https://bit.ly/2OHjuJJ" alt="我的小草神" />
-
     水平線:
     <hr />
 
     分割區塊：div
     <div>
-        <h1>我是標題</h1>
+        <h1 id="bookmark1">我是標題</h1>
         <p>我是段落</p>
         <img src="https://bit.ly/2OHjuJJ" alt="我的小草神" />
     </div>
-    
-    inline元素裡面不能裝block
+
+    inline元素裡面不能裝block:span的顏色沒辦法顯示在上面
     <span style="background-color:rebeccapurple">
         <p>hahaha</p>
     </span>
