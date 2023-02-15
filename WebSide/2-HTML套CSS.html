@@ -6,14 +6,53 @@
     <title>出來玩Page2</title>
     <!-- 連接css樣式-->
     <link href="Style.css" rel="stylesheet" type="text/css">
+    <style>
+        h3.style1 { color:antiquewhite; text-decoration:underline; font-style:italic }
+        .under1 { text-decoration:underline; }
+        .trans1{text-transform:capitalize;}
+        .size1 {font-size:2em;}
+        /*顏色的順序會按照最下面執行到的為主*/
+        .mycolor2 {
+            color: blue;
+        }
+        .mycolor1 {
+            color: red;
+        }
+    </style>
 </head>
 <body>
+    <!--顏色的順序會按照最下面執行到的為主-->
+    <h1 class="mycolor1 mycolor2">測試顏色的執行的先後次序</h1>
+    <h2>h2不會變</h2>
+    <!--可同時多種style(class)作用在一個元件上-->
+    <h2 class="under1 trans1 size1">h2套很多style會變</h2>
+    <h3 class="style1">h3會變</h3>
+    <!--css字體大小-->
+    <h1 style="font-family:標楷體">我是標楷體</h1>
+    <span style="color:aquamarine;font-size:24px">apple</span>
+    <span style="color:#0080FF;font-size:2em">apple</span>
+    <span style="color:rgb(0,125,140);font-size:80%">apple</span>
+    <span>apple</span>
+
+    <!--移動到書籤位置-->
     <a href="1-HTML基本語法.html#bookmark1">移動到書籤位置</a>
-    
-    分割區塊：div
+    <br>
+    <!--圖片加上超連結-->
+    <a href="https://disp.cc/b/"><img src="images/coffee01.jpg" alt=" coffee01" width="200" height="200" /></a>
+
+    <!--figure元素-->
+    <figure style="background-color:aqua">
+        <img src="images/coffee01.jpg" alt=" coffee01" />
+        <img src="images/coffee03.jpg" alt=" coffee01" />
+        <img src="images/coffee04.jpg" alt=" coffee01" />
+        <figcaption>咖咖咖咖咖啡</figcaption>
+    </figure>
+
+    <!--分割區塊：div-->
+    <br>
     <div>我是標題</div>
     <div>貓喵喵喵~貓喵喵喵~</div>
-    <!-- 我是註解-->
+    <!-- 定義元件裡面再塞順序元件-->
     隨便練習
     <h2>櫻花鉤吻鮭</h2>
     <dl>
