@@ -1,0 +1,16 @@
+﻿/*這個叫做自訂樣式表*/
+#Mytitle {
+    color: blueviolet
+}
+
+h3 {
+    color: red
+}
+
+#myId {
+    color: orange
+}
+
+.myClass {
+    color: blue
+}
