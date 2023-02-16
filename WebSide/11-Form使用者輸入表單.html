@@ -4,12 +4,51 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+        .st1 {
+            width: 450px;
+            border-bottom: 4px dashed red;
+            margin: 20px;
+            padding-bottom:10px;
+        }
+        .sub {
+            width: 450px;
+            height: 200px;
+            text-align:center;
+        }
+        label {
+            width:100px;
+            float:left;
+            text-align:right;
+            padding-right:5px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Get的表單</h1>
     <form action="#" method="get" enctype="multipart/form-data">
+        <div class="st1">
+            <label for ="account1">姓名:</label><input type="text" id="account1" name="account" value="guest" size="10" /><br />
+        </div>
+        <div class="st1">
+            <label for="pwd1">密碼:</label><input type="password" id="pwd1" name="pwd" maxlength="10" size="10" /><br />
+        </div>
+        <div class="st1">
+            <label for="comment1">意見:</label><textarea id="comment1" name="comment" cols="40" rows="5"></textarea><br />
+        </div>
+        <div class="sub">
+            <input type="reset" name="btnClear" id="btnClear" value="清除" />
+            <input type="submit" name="btnSubmit" id="btnSubmit" value="送出" />
+        </div>
+    </form>
+    <br />
+    <h1>Post的表單</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
         姓名:<input type="text" name="account" value="guest" size="10" /><br />
         密碼:<input type="password" name="pwd" maxlength="10" size="10" /><br />
         意見:<textarea name="comment" cols="40" rows="5"></textarea><br />
+        <input type="reset" name="btnClear" id="btnClear" value="清除" />
+        <input type="submit" name="btnSubmit" id="btnSubmit" value="送出" />
     </form>
 </body>
 </html>
