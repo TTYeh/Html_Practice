@@ -17,7 +17,6 @@
             border: 1px solid black;
             padding: 5px;
         }
-
         th {
             background-color: #4CAF50;
             color: white;
@@ -29,6 +28,9 @@
 
         tr:hover {
             background-color: #ddd;
+        }
+        tbody {
+            text-align:center
         }
     </style>
 </head>
@@ -44,31 +46,32 @@
                 <th>幾隻眼</th>
                 <th>幾隻手腳</th>
             </tr>
+            <tr>
+                <th colspan="2">頭+腳</th>
+                <th colspan="2">眼+手腳</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
                 <td>1</td>
                 <td>2</td>
-                <td>3</td>
+                <td rowspan="3">3</td>
                 <td>4</td>
             </tr>
             <tr>
                 <td>1</td>
                 <td>2</td>
-                <td>3</td>
                 <td>4</td>
             </tr>
             <tr>
                 <td>1</td>
                 <td>2</td>
-                <td>3</td>
                 <td>4</td>
             </tr>
             <tr>
                 <td>1</td>
                 <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <td colspan="2">4</td>
             </tr>
 
         </tbody>

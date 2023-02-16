@@ -4,8 +4,44 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+        .wrapper {
+            position: relative;
+            width: 400px;
+            height: 400px;
+        }
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.5;
+        }
+
+        p {
+            margin: 0;
+            padding: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            width: 300px;
+            height: 200px;
+            line-height: 1.5;
+            text-align: justify;
+            text-justify: revert;
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="wrapper">
+        <img src="images/coffee01.jpg" alt="Your Image">
+        <p>這裡是繞著圖片的文字內容</p>
+    </div>
 </body>
 </html>

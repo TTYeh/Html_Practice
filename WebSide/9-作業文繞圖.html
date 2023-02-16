@@ -12,19 +12,63 @@
             width: 400px;
             box-sizing: border-box;
         }*/
-
+        .myFigure {
+            /*和右邊文字的距離*/
+/*            margin-right: 30px;
+            padding-bottom: 50px;*/
+            border: blue 1px dashed;
+        }
         .img1 {
             float: left;
+
+            border:red 1px dashed;
+            padding:10px 10px;
         }
-
-
+        .myContent {
+            margin-top: 0;
+            padding-top: 0;
+            border: purple 1px dashed;
+        }
+        .myTitle {
+            /*與上面的距離*/
+            margin-top: 10px;
+            /*和右邊文字的距離*/
+            margin-bottom: 10px;
+            border: green 1px dashed;
+        }
+        #myBoard {
+            padding: 50px;
+            border: gray 1px dashed;
+        }
+        #myPicBox {
+            border: purple 5px dashed;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <h1>標題在「浮動」前面就不會受到影響</h1>
-        <img class="img1" src="images/coffee01.jpg" alt=" 咖啡01" />
-        <p>咖啡（英語：coffee）是指經過烘焙過程的咖啡豆（咖啡屬植物的種子）所製作沖泡的飲料。咖啡是人類社會流行範圍最為廣泛的飲料之一，也是重要經濟作物。 咖啡樹原產於非洲亞熱帶地區，以及亞洲南部的一些島嶼[2]。那些咖啡樹從非洲出口至世界各國，現時那些咖啡樹種植遍布超過70個國家，主要在美洲、東南亞、印度等赤道地區。</p>
+    <div id="myBoard">
+        <h2 class="myTitle">咖啡是一列長標題，注意這個男人太狠了</h2>
+        <!--<figure class="myFigure">
+    <img class="img1" src="images/coffee01.jpg" alt=" 咖啡01" />-->
+        <!--<br>
+    <figcaption>超級蹦蹦咖啡豆</figcaption>-->
+        <!--</figure>-->
+        <!--img1 need a content-->
+        <div id="myPicBox">
+            <img class="img1" src="images/coffee01.jpg" alt=" 咖啡01" />
+            <span>aaa</span>
+        </div>
+
+        <p class="myContent">
+            咖啡（英語：coffee）是指經過烘焙過程的咖啡豆（咖啡屬植物的種子）所製作沖泡的飲料。咖啡是人類社會流行範圍最為廣泛的飲料之一，
+            也是重要經濟作物。 咖啡樹原產於非洲亞熱帶地區，以及亞洲南部的一些島嶼[2]。那些咖啡樹從非洲出口至世界各國，現時那些咖啡樹種植遍布超過70個國家
+            ，主要在美洲、東南亞、印度等赤道地區。咖啡普遍分為兩種：備受推崇的小果咖啡（阿拉比卡）及顆粒較粗和酸味較低而苦味較濃的中果咖啡（羅布斯塔）。咖啡一旦成熟，
+            就會經過採摘，加工，烘焙的程序。咖啡中咖啡因對人體有刺激的作用，
+            人們在學習、閱讀和思考等腦力活動時經常用來提神。咖啡是世界上最流行的飲料之一[3]，
+            它能夠以多種方式製作，如：濃縮咖啡、卡布奇諾、拿鐵咖啡等，通常是作為熱飲，亦也可作為冷飲。
+            在飲用前可計算估計咖啡因的攝入量，即可達到適量的標準。大部分的研究建議，適度飲用咖啡是有益的，甚或有利於健康的成年人。
+        </p>
+
     </div>
 
 
