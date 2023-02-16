@@ -6,31 +6,56 @@
     <title>新增超連結</title>
     <style>
         /*a:link 未被訪問的連結*/
-        a:link {
+      /*  a:link {
+            color: #0080FF;
+            text-decoration: none;
+        }*/
+        /*a:visited 已被訪問的連結*/
+/*        a:visited {
+            color:#009393
+        }*/
+        /*左鍵移到連結文字*/
+/*        a:hover {
+            color:#003060;
+            text-decoration: underline;
+        }*/
+        /*按下滑鼠左鍵*/
+/*        a:active {
+            color:red;
+            font-size:30px;
+        }*/
+        /*****************  空格或者是大於符號二擇一***************************************/
+        /*a:link 未被訪問的連結*/
+        /*.list > li > a:link {*/
+        .list a:link {
             color: #0080FF;
             text-decoration: none;
         }
         /*a:visited 已被訪問的連結*/
-        a:visited {
-            color:#009393
+        .list a:visited {
+            color: #009393
         }
         /*左鍵移到連結文字*/
-        a:hover {
-            color:#003060;
+        .list a:hover {
+            color: #003060;
             text-decoration: underline;
         }
         /*按下滑鼠左鍵*/
-        a:active {
-            color:red;
-            font-size:30px;
+        .list a:active {
+            color: red;
+            font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <a href="1-HTML基本語法.html#bookmark1">新聞</a>
+    <!--<a href="1-HTML基本語法.html#bookmark1">新聞</a>
     <a href="1-HTML基本語法.html#bookmark1">運動</a>
     <a href="1-HTML基本語法.html#bookmark1">八卦</a>
-    <a href="1-HTML基本語法.html#bookmark1">省錢</a>
-
+    <a href="1-HTML基本語法.html#bookmark1">省錢</a>-->
+    <ul>
+        <li class="list"> <a href="1-HTML基本語法.html#bookmark1">感情</a> </li>
+        <li class="list"> <a href="1-HTML基本語法.html#bookmark1">親子</a> </li>
+        <li class="list"> <a href="1-HTML基本語法.html#bookmark1">靈異</a> </li>
+    </ul>
 </body>
 </html>
