@@ -1,33 +1,74 @@
 ﻿<!DOCTYPE html>
-<html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta charset="utf-8" />
+    <title>鳥類圖鑑</title>
     <style>
-        figure {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #e7ecea;
+            /*   background-image: url("images/darkforest.jpg");
+                    background-repeat:no-repeat;*/
+        }
+        .figure1 {
+            border: 1px solid #081516;
+            width: 350px;
+            /*margin: 30px;*/
+            background-color: #ebfcf1;
             float: left;
-            margin: 0 20px 20px 0;
+            padding: 30px;
+            margin-right:20px;
+        }
+        .div1 {
+            width: 800px;
+            margin: 0 auto;
         }
 
-        figcaption {
-            font-style: italic;
-            font-size: 14px;
-            text-align: center;
+        h2 {
+        border: 1px dotted #9D9D9D;
+        margin: 30px;
         }
 
+        h3 {
+        border: 1px dashed #9D9D9D;
+        font-size: 16px;
+        /*display: inline;*/
+        }
         p {
-            text-align: justify;
+        /* padding-bottom:10px;*/
+        border: 1px solid #FF2D2D;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        padding-left: 10px;
         }
     </style>
 </head>
 <body>
-    <figure>
-        <img src="images/coffee01.jpg" alt="一張圖片">
-        <figcaption>圖片說明文字</figcaption>
-    </figure>
-    <p>這是一段環繞圖片排列的文字，可以很長很長，但是不能重疊在圖片上。</p>
-    <p>這是一段環繞圖片排列的文字，可以很長很長，但是不能重疊在圖片上。</p>
-    <p>這是一段環繞圖片排列的文字，可以很長很長，但是不能重疊在圖片上。</p>
-    <p>這是一段環繞圖片排列的文字，可以很長很長，但是不能重疊在圖片上。</p>
-    <p>這是一段環繞圖片排列的文字，可以很長很長，但是不能重疊在圖片上。</p>
-    <p>這是一段環繞圖片排列的文字，可以很長很長，但是不能重疊在圖片上。</p>
+    <div class="div1">
+        <h2>五色鳥</h2>
+        <figure class="figure1">
+            <img src="images/bird.jpg" alt="五色鳥圖片" width="350" />
+            <figcaption>五色鳥顧名思義共有五種羽色：嘴及眼後呈黑色，額與喉為黃色，眼先與上胸有紅色羽毛，臉部及頭頂呈藍色，全身則為綠色；體型肥胖且頭大，上嘴較下嘴長，嘴鬚發達；由於會啄樹洞，常被遊客誤認為啄木鳥，且身著五色彩衣，有「森林中的花和尚」之封號。</figcaption>
+        </figure>
+        <p>
+            物種特性：台灣特有種
+        </p>
+        <p>
+            <h3>形態特徵：</h3>五色鳥顧名思義共有五種羽色：嘴及眼後呈黑色，額與喉為黃色，眼先與上胸有紅色羽毛，臉部及頭頂呈藍色，全身則為綠色；體型肥胖且頭大，上嘴較下嘴長，嘴鬚發達；由於會啄樹洞，常被遊客誤認為啄木鳥，且身著五色彩衣，有「森林中的花和尚」之封號。
+        </p>
+        <p>
+            <h3>生物習性：</h3>五色鳥食性主要以果實為主，亦食用昆蟲；飛行笨拙，不好動，大多為單獨行動之鳥種；繁殖期約為四至八月；五色鳥雖顏色鮮豔，但保護色極好，人們常常只能聽到其急促的「郭、郭、郭」的叫聲從樹上傳出，卻不見其影。
+        </p>
+        <p>
+            <h3>棲地分佈：</h3>主要棲息於中低海拔的闊葉林中上層，常以枯木之樹洞為棲所；從陽明山到墾丁，都不難看見其蹤影。
+        </p>
+        <p>
+            <h3>保育現況：</h3>由於五色鳥以綠色為主的鳥羽非常漂亮，因此常成為被捕捉的目標，因此應多加保護。由於人們清理環境，野外的枯木逐漸減少，使五色鳥可以築巢的地點也越來越少，長期下來，五色鳥在求偶之後難覓愛巢，也無法築巢育幼。所幸人們已逐漸了解枯木對於自然界的重要性，努力保持枯木的堅挺於綠野，保育五色鳥的生存環境。
+        </p>
+    </div>
 </body>
 </html>
