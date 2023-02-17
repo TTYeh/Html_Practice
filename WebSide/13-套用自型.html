@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!--用link的方式引入字體-->
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /*用內建的方式引入字型*/
+        @font-face {
+            src: url(JustOldFashion.ttf);
+            font-family: font1;
+        }
+
+        .font1 {
+            font-family: font1;
+        }
+
+        @font-face {
+            src: url(SCRIPTIN.ttf);
+            font-family: font2;
+        }
+        /*用link的方式引入字體*/
+        .font2 {
+            font-family: font2;
+        }
+
+        h2 {
+            font-family: 'Zeyada', cursive;
+        }
+        /*用import的方式引入字型*/
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tagbanwa&display=swap');
+
+        .font3 {
+            font-family: 'Noto Sans Tagbanwa', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--建議網站https://fonts.google.com/-->
+    <h1>apple</h1>
+    <h1 class="font1">Banana</h1>
+    <h1 class="font2">Cake</h1>
+    <h2>I am a very great man</h2>
+    <h1 class="font3">Hello World</h1>
+</body>
+</html>
