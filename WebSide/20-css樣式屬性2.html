@@ -12,9 +12,11 @@
         }
         /*因為浮動，所以顏色跑掉 用overflow解決*/
         .list li {
-            width: 7em;
+            width: 12em;
             float: left;
             border: 3px red dashed;
+            /*增加高度，有高度後，文字就有垂直置中(因為文字是center)*/
+            line-height:3em;
             /*項目符號是outside所以才*/
         }
             .list li a {
