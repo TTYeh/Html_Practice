@@ -1,0 +1,26 @@
+﻿/*用內建的方式引入字型*/
+@font-face {
+    src: url(JustOldFashion.ttf);
+    font-family: font1;
+}
+
+.font1 {
+    font-family: font1;
+}
+
+@font-face {
+    src: url(SCRIPTIN.ttf);
+    font-family: font2;
+}
+/*用link的方式引入字體*/
+.font2 {
+    font-family: font2;
+}
+
+/*用import的方式引入字型*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tagbanwa&display=swap');
+
+.font3 {
+    font-family: 'Noto Sans Tagbanwa', sans-serif;
+}
+
