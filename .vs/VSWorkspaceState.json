@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\WebSide",
-    "\\WebSide\\images"
+    "\\WebSide\\classFile",
+    "\\WebSide\\classFile\\website_0215",
+    "\\WebSide\\classFile\\website_0215\\images",
+    "\\WebSide\\classFile\\website_0215\\styles"
   ],
-  "SelectedNode": "\\WebSide\\6-新增超連結.html",
+  "SelectedNode": "\\WebSide\\19-css樣式屬性.html",
   "PreviewInSolutionExplorer": false
 }
